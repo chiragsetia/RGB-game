@@ -1,0 +1,41 @@
+body{
+	background: #232323;
+	text-align: center;
+}
+.square{
+	width:30%;
+	padding-bottom: 30%;
+	margin: 1.6%;
+	float: left;
+	border-radius: 40px;
+	transition: background 0.5s;
+
+}
+.jumbotron {
+	padding-bottom: 0;
+	padding-top: 2%;
+	margin-bottom: 0px;
+	background-color: RGBA(150, 131, 150, 1);
+}
+.navbar {
+    border-radius: 0px;
+}
+.navbar-default .navbar-nav > li > a {
+    color:RGBA(150, 131, 150, 1);
+}
+#centre{
+	color: black;
+	font-size: 150%
+}
+.selected{
+	border: 3px solid RGBA(150, 131, 150, 1);
+}
+
+.navbar .navbar-nav  {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
